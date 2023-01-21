@@ -1,9 +1,7 @@
 require './logger'
 
-Logger.say_something
+Logger.instance.log_something 'bla bla!'
 
-Logger.instance.log_something 'blabla'
-Logger.instance.log_something 'blabla2'
 
 # logger = Logger.new
 # logger.log_something 'hey!'
